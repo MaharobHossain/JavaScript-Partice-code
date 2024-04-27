@@ -10,17 +10,35 @@
   
     
     <script>
+ 
+    var Marks=30;
 
-    var age=23;
-    var city='Dhaka';
-    if(age>55 && city=='Dhaka'){
-
-    document.write("You are not Adalt");
-
+    if (Marks>=90 && Marks<=100) {
+        document.write('You got A+')
     }
+    else if (Marks<90 && Marks>=80) {
+        document.write('You got A')
+    }
+    else if (Marks<80 && Marks>=70) {
+        document.write('You got A-')
+    }
+    else if (Marks<70 && Marks>=60) {
+        document.write('You got B')
+    }
+    else if (Marks<60 && Marks>=50) {
+        document.write('You got C')
+    }
+    else if (Marks<50 && Marks>=40) {
+        document.write('You got D')
+    }
+    else if (Marks<40 && Marks>=33) {
+        document.write('You got E')
+    }
+
     else {
-        document.write('you are adalt');
+        document.write('You Are Fail.')
     }
+
          
 
 
