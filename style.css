@@ -1,10 +1,17 @@
-.fa-brands{
-    color: blue;
-    font-size: 40px;
-    
-}
-
-.material-symbols-outlined{
-    
+a{
     color: red;
+    text-decoration: none;
+    background-color: rgb(57, 207, 207);
+    font-size: 25px;
+    padding: 5px;
+    margin: 50px;
+    border: 1px black solid;
+}
+a:hover{
+    color: black;
+    background-color: chartreuse;
+}
+a:active{
+    color: white;
+   background-color: black;
 }
