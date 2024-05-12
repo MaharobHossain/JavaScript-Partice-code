@@ -1,9 +1,12 @@
-ul{
-    list-style-type:circle;
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: left;
 }
-.ddd{
-    /* list-style-image:url(ggg.jpg) ;
-    list-style-position:inside;
-    list-style-type:square; */
-    list-style: square inside url(ggg.jpg);
+
+table{
+    width: 100%;
+}
+th, td{
+    color: blue;
 }
