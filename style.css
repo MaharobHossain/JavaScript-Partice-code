@@ -1,17 +1,8 @@
-a{
-    color: red;
-    text-decoration: none;
-    background-color: rgb(57, 207, 207);
-    font-size: 25px;
-    padding: 5px;
-    margin: 50px;
-    border: 1px black solid;
+ul{
+    list-style-type:decimal-leading-zero;
 }
-a:hover{
-    color: black;
-    background-color: chartreuse;
-}
-a:active{
-    color: white;
-   background-color: black;
+.ddd{
+    list-style-image:url() ;
+    list-style-position:inside;
+    list-style: ;
 }
