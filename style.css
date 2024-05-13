@@ -1,12 +1,15 @@
-table, th, td{
-    border: 3px solid black;
-    border-collapse: collapse;
-    text-align: left;
+h1{
+    text-align: center;
+    display: inline-block;
 }
-
-table{
-    width: 100%;
+span{
+    text-align: center;
+    display: block;
+    font-size: 25px;
 }
-th, td{
-    color: blue;
+h2{
+    display: none;
+}
+ul li{
+    display: inline;
 }
