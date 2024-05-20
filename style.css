@@ -1,23 +1,8 @@
-div{
-    float: right;
-}
-.box1{
-    width: 300px;
-    height: 200px;
-    background-color: black;
-}
-.box2{
-    width: 300px;
-    height: 200px;
-    background-color: red;
-}
-.box3{
-    width: 300px;
-    height: 200px;
+h1:nth-child(5){
+    color: red;
     background-color: green;
+    text-align: center;
 }
-.box4{
-    width: 300px;
-    height: 200px;
-    background-color:tomato;
+h1:first-child{
+    background-color: tomato;
 }
