@@ -1,23 +1,12 @@
-h1{
-    text-align: center;
-    font-size: 60px;
-    text-shadow: 5px 5px 5px rgb(16, 221, 187);
+.box1{
+    width: 53px;
+    height: 53px;
+    background-image: url(uuu.png);
+    background-position: -90px -165px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
 }
 
-.box1{
-    width: 600px;
-    height: 370px;
-    border: 3px rgb(0, 0, 0, 0.5) solid;
-    text-align: center;
-    margin: auto;
-    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.5), -5px -5px 5px 5px rgb(0, 0, 0, 0.5);
-}
-.box1 img{
-    margin: 20px;
-    box-shadow:  5px 5px 5px 5px rgb(0, 0, 0, 0.5), -5px -5px 5px 5px rgb(0, 0, 0, 0.5);
-}
-h2{
-    font-size: 45px;
-    text-shadow: 5px 5px 5px rgb(16, 221, 187);
-    margin: 0;
+.box1:hover{
+    background-position: 0 -138px;
 }
