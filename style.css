@@ -7,7 +7,7 @@ h1{
     background-color: tomato;
     margin: 50px auto;
     position: relative;
-    transform:rotate(50deg);
+    transform:scaleX(2);
 }
 .box h2{
     text-align: center;
@@ -17,3 +17,11 @@ h1{
     top: 40%;
 }
 
+.box1{text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(77, 255, 71);
+    margin: 190px auto;
+    position: relative;
+    transform: scale(0.8);
+}
