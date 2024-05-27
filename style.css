@@ -1,12 +1,19 @@
-.box1{
-    width: 53px;
-    height: 53px;
-    background-image: url(uuu.png);
-    background-position: -90px -165px;
-    background-repeat: no-repeat;
-    border-radius: 50%;
+h1{
+    text-align: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    margin: 50px auto;
+    position: relative;
+    transform:rotate(50deg);
+}
+.box h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: 40%;
 }
 
-.box1:hover{
-    background-position: 0 -138px;
-}
