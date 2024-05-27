@@ -1,27 +1,38 @@
 h1{
     text-align: center;
+    font-size: 50px;
 }
 .box{
-    width: 400px;
-    height: 400px;
-    background-color: tomato;
-    margin: 50px auto;
-    position: relative;
-    transform:translate(200px,500px);
-}
-.box h2{
     text-align: center;
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: relative;
-    top: 40%;
+    font-size: 30px;
+    width: 550px;
+    height: 300px;
+    background: linear-gradient(rgb(0, 255, 234),rgb(199, 65, 177));
+    margin: 100px auto;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+    transition-timing-function:cubic-bezier(.74,1.55,.1,-0.49);
+}
+.box:hover{
+    width: 290px;
+    height: 220px;
+    background: linear-gradient(rgb(16, 197, 70),rgb(214, 193, 4));
+    transform: rotate(30deg);
 }
 
-.box1{text-align: center;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(77, 255, 71);
-    margin: 190px auto;
-    position: relative;
-    transform: translateX(-300px);
+.box1{
+    font-size: 30px;
+    text-align: center;
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(rgb(0, 255, 234),rgb(199, 65, 177));
+    margin: 100px auto;
+    transition: all 1s 0.5s cubic-bezier(.84,-0.04,0,1.44);
+}
+.box1:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform: rotate(45deg);
 }
