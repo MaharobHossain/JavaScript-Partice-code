@@ -7,7 +7,7 @@ h1{
     background-color: tomato;
     margin: 50px auto;
     position: relative;
-    transform:scaleX(2);
+    transform:skew(-45deg);
 }
 .box h2{
     text-align: center;
@@ -23,5 +23,5 @@ h1{
     background-color: rgb(77, 255, 71);
     margin: 190px auto;
     position: relative;
-    transform: scale(0.8);
+    transform: skewY(45deg);
 }
