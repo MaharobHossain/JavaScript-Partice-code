@@ -1,64 +1,45 @@
-.box{
-    width: 600px;
-    height: 600px;
-    border: 19px solid tomato;
-    border-radius: 50%;
-    margin: 100px auto;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    animation: box 2s infinite forwards;
-    
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
-@keyframes box{
-    0%{
-        border-color: red;
-        transform: scale(1);
-    }
-    25%{
-        border-color:aqua;
-        transform: scale(1.1);
-    }
-    50%{
-        border-color:rgb(81, 255, 0);
-        transform: scale(0.8);
-    }
-    75%{
-        border-color:rgb(255, 0, 64);
-        transform: scale(1.2);
-    }
-    100%{
-        border-color:rgb(0, 17, 255);
-        transform: scale(0.7);
-    }
+main{
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid #b4b4b4;
+    color: white;
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3, 1fr) 150px;
+    grid-gap:10px;
 }
 
-.circel{
-    width: 300px;
-    height: 300px;
-    border: 17px solid rgb(3, 240, 181);
-    animation: circle 2s infinite alternate;
+.box1{
+    background-color: crimson;
+    grid-column: 1/-1;
 }
-@keyframes circle{
-    0%{
-        transform: rotate(0deg);
-        border-width: 10px;
-    }
-    25%{ 
-        transform: rotate(0deg);
-        border-width: 20px;
-
-    }
-    50%{
-        border-color: rgb(30, 255, 0);
-        border-width: 30px;
-    }
-    75%{
-        border-color: rgb(4, 0, 255);
-        border-width: 40px;
-        }
-    100%{ 
-        transform: rotate(560deg);
-    }
+.box2{
+    background-color: chartreuse;
+}
+.box3{
+    background-color:blue;
+}
+.box4{
+    background-color:aqua;
+}
+.box5{
+    background-color:rgb(48, 46, 46);
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.box6{
+    background-color:chocolate;
+    grid-column: 1/4;
+}
+.box7{
+    background-color:darkcyan;
+    grid-column: 1/-1;
 }
