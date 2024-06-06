@@ -1,45 +1,59 @@
-*{
-    margin: 0;
+body{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    background-color: #eee;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    background-color: #ddd;
 }
-main{
-    width: 80%;
-    margin: 10px auto;
-    border: 2px solid #b4b4b4;
+header{
+    width: 90%;
+    
+   background-color: black;
+   color: white;margin: 10px auto;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #262626;
+    width: 160px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
     color: white;
-    display: grid;
-    grid-template-rows: 60px 100px 200px 60px;
-    grid-template-columns: repeat(3, 1fr) 150px;
-    grid-gap:10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.box1{
-    background-color: crimson;
-    grid-column: 1/-1;
+.navbar ul li:hover{
+    background-color: red;
+    transition: all ease-in 0.5 ;
 }
-.box2{
-    background-color: chartreuse;
+.navbar ul ul{
+    display: none;
 }
-.box3{
-    background-color:blue;
-}
-.box4{
-    background-color:aqua;
-}
-.box5{
-    background-color:rgb(48, 46, 46);
-    grid-row: 2/4;
-    grid-column: 4/5;
-}
-.box6{
-    background-color:chocolate;
-    grid-column: 1/4;
-}
-.box7{
-    background-color:darkcyan;
-    grid-column: 1/-1;
+.navbar ul li:hover > ul{
+    display: block;
 }
