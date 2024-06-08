@@ -80,15 +80,49 @@ header{
                  /* Header ar kaj Sesh */
 
 
+                 /* Form ar kaj Suru */
+
+
+
+.from{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 80px;
+    border-radius: 5%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 9px 0 rgb(11, 209, 216),-5px -5px 9px 0 rgb(11, 209, 216);
+
+}
+.from input{
+    padding: 10px 50px;
+    background-color:aqua;
+    border-color:rgb(0, 0, 0) ;
+    border-radius: 50px;
+
+
+}
+.from .log{
+    font-weight: bold;
+}
+
+
+                 /* Form ar kaj Sesh */
+
+                 /* footer ar kaj Suru */
 footer{
     width: 90%;
-   margin: 10px auto;
+    margin: 10px auto;
     background-color: #1b1a1a;
     color: white;
     text-align: center;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /* position: absolute; */
 
 }
 .name h1{
@@ -120,12 +154,7 @@ footer{
     line-height: 45px;
 }
 
-  /* Navbar ar kaj Sesh */
+/* footer ar kaj Sesh */
 
 
-  .box1{
-    width: 700px;
-    height: 700px;
-    background-color: chartreuse;
-    margin: 10px auto;
-  }
+ 
