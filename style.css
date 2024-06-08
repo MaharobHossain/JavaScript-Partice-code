@@ -145,6 +145,10 @@ footer{
     position: relative;
     padding: 6px;
 }
+.icon i:hover{
+    font-size: 45px;
+    padding: 7px;
+}
 
 .Copyrights{
     width: 100%;
