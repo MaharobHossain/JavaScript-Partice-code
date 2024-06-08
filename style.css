@@ -8,6 +8,7 @@ body{
 
 
                   /* Header ar kaj Suru */
+
 header{
     width: 90%;
    background-color: black;
@@ -87,7 +88,7 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
-    /* position: absolute; */
+    position: absolute;
 
 }
 .name h1{
