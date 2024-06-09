@@ -3,7 +3,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #ddd;
+    background-color: #c49e9e;
 }
 
 
@@ -161,4 +161,84 @@ footer{
 /* footer ar kaj Sesh */
 
 
+@media (max-width:786px){
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: #c49e9e;
+    }
+    header{
+        width: 100%;
+        height: 79px;
+       background-color: black;
+       color: white;margin: 0px auto;
+    }
+    .logo h2{
+        font-size: 17px;
+        color: brown;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar ul{
+        list-style: none;
+        margin-left: -30px;
+    }
+    .navbar ul li{
+        width: 48px;
+        height: 33px;
+        background-color: #262626;
+        text-align: center;
+        float: left;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        line-height: 40px;
+        padding: 5px;
+        
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: rgb(255, 253, 253);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar ul li:hover{
+        background-color:rgb(228, 7, 7);
+        transition: all ease-in-out 1.5s ;
+    }
+    .navbar ul ul{
+        display: none;
+    }
+    .navbar ul li:hover > ul{
+        display: block;
+    }
+    .navbar button{
+        width: 65px;
+        height: 27px;
+        font-size: 17px;
+        margin-left: 15px;
+        border-radius: 50px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(226, 6, 208);
+        
+    }
+    .navbar button:hover{
+        background-color: rgb(10, 226, 107);
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        
+    
+    }
+    
+}
  
